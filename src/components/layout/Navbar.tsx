@@ -1,7 +1,7 @@
 "use client";
 
 import NavbarClient from "./NavbarClient";
-import { useDictionary } from "@/components/DictionaryContext";
+import { useDictionary } from "@/components/context/DictionaryContext";
 
 export default function Navbar() {
   const { dict, lang } = useDictionary();

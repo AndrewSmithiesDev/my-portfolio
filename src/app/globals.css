@@ -130,8 +130,8 @@ html {
 ------------------------------------------------------- */
 
 .section {
-  padding-top: var(--space-section);
-  padding-bottom: var(--space-section);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .block {
@@ -141,6 +141,7 @@ html {
 /* Hero offset so it doesn't sit under navbar */
 .hero {
   padding-top: calc(var(--space-section));
+  padding-bottom: calc(var(--space-section) / 2);
 }
 
 /* -------------------------------------------------------

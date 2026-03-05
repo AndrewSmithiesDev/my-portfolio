@@ -1,6 +1,6 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/layout/Navbar";
 import { getDictionary } from "@/lib/getDictionary";
-import { DictionaryProvider } from "@/components/DictionaryContext";
+import { DictionaryProvider } from "@/components/context/DictionaryContext";
 
 export default async function LangLayout({
   children,

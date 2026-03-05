@@ -1,5 +1,5 @@
 "use client"
-import { useDictionary } from "@/components/DictionaryContext";
+import { useDictionary } from "@/components/context/DictionaryContext";
   
 export default function Hero() {
   const { dict } = useDictionary();
@@ -28,7 +28,7 @@ export default function Hero() {
           </a>
         </div>
   
-        <a href="#about" className="mt-16 block animate-bounce text-sage-500 text-3xl opacity-60">↓</a>
+        <a href="#about" className="mt-16 block animate-bounce text-sage-500 text-3xl opacity-60" aria-label={dict.hero.scrollToAbout}>↓</a>
       </section>
     );
   }

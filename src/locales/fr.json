@@ -11,6 +11,16 @@
     "role": "Développeur Web & Web Mobile Full-Stack",
     "description": "Issu de l’enseignement des mathématiques, je me suis reconverti dans le développement web et mobile, où je mets à profit mon sens de l’analyse, de la pédagogie et de la conception claire.",
     "ctaProjects": "Voir mes projets",
-    "ctaContact": "Me contacter"
+    "ctaContact": "Me contacter",
+    "scrollToAbout": "Faire défiler vers la section À propos"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "paragraph1":
+      "Ancien professeur de mathématiques, je me suis reconverti dans le développement web et mobile, où mon esprit analytique et mon goût pour la résolution de problèmes ont trouvé leur place.",
+    "paragraph2":
+      "L’enseignement m’a appris à expliquer clairement des concepts complexes, à structurer ma réflexion et à aborder chaque défi avec rigueur et pédagogie—des compétences que j’applique désormais à la conception et au développement d’applications.",
+    "paragraph3":
+      "Aujourd’hui, je travaille avec des outils modernes comme React Native, TypeScript, Symfony et Vue.js pour créer des applications fiables, maintenables et centrées sur l’expérience utilisateur."
   }
 }

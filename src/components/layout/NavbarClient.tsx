@@ -64,7 +64,7 @@ export default function NavbarClient({
       <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
         <a
           className="nav-link text-xl font-semibold opacity-90 hover:opacity-100 transition"
-          href={`/${lang}`}
+          href="#hero"
         >
           {dict.nav.portfolio}
         </a>

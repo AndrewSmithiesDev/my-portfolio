@@ -1,6 +1,11 @@
-import { useDictionary } from "@/components/DictionaryContext";
-import Hero from "@/components/Hero";
+import About from "@/components/about/About";
+import Hero from "@/components/hero/Hero";
 
 export default function Page() {
-  return <Hero />;
+  return (
+    <>
+    <Hero />
+    <About />
+    </>
+  ); 
 }

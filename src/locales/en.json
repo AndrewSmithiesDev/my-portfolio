@@ -11,6 +11,16 @@
     "role": "Full-Stack Web & Mobile Developer",
     "description": "After a career teaching mathematics, I now design and build web and mobile applications where analytical thinking, clarity, and user‑focused design come together.",
     "ctaProjects": "View Projects",
-    "ctaContact": "Get in Touch"
+    "ctaContact": "Get in Touch",
+    "scrollToAbout": "Scroll to About section"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1":
+      "I'm a former mathematics teacher who transitioned into web and mobile development, where my analytical mindset and love of problem-solving found a natural home.",
+    "paragraph2":
+      "Teaching taught me to break down complex ideas, communicate clearly, and approach challenges with structure and patience—skills I now apply to designing and building applications.",
+    "paragraph3":
+      "Today I work with modern tools like React Native, TypeScript, Symfony and Vue.js to create reliable, maintainable applications with thoughtful user experiences."
   }
 }
