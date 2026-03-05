@@ -1,8 +1,14 @@
 import "./globals.css";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<Record<string, string>>;
+}) {
   return (
-    <html lang="fr">
+    <html>
       <body className="font-sans antialiased">{children}</body>
     </html>
   );

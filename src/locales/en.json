@@ -1,7 +1,16 @@
 {
-    "hero": {
-      "title": "Welcome",
-      "subtitle": "This is the English version"
-    }
+  "nav": {
+    "portfolio": "Portfolio",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Andrew Smithies",
+    "role": "Web & Mobile Developer",
+    "description": "I craft elegant, performant digital experiences with clean code and thoughtful interfaces.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch"
   }
-  
+}

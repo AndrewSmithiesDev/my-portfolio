@@ -1,7 +1,16 @@
 {
-    "hero": {
-      "title": "Bienvenue",
-      "subtitle": "Ceci est la version française"
-    }
+  "nav": {
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Andrew Smithies",
+    "role": "Développeur Web & Mobile",
+    "description": "Je conçois des expériences numériques élégantes et performantes avec un code propre et des interfaces réfléchies.",
+    "ctaProjects": "Voir les projets",
+    "ctaContact": "Me contacter"
   }
-  
+}

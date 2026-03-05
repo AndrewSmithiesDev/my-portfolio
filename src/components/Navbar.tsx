@@ -1,39 +1,13 @@
+import { getDictionary } from "@/lib/getDictionary";
+import NavbarClient from "./NavbarClient";
+
 type NavbarProps = {
   lang: string;
 };
 
-export default function Navbar({ lang }: NavbarProps) {
+export default async function Navbar({ lang }: NavbarProps) {
+  const dict = await getDictionary(lang);
   const otherLang = lang === "fr" ? "en" : "fr";
 
-  return (
-    <nav className="navbar">
-      <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
-        <a
-          className="nav-link text-xl font-semibold opacity-90 hover:opacity-100 transition"
-          href={`/${lang}`}
-        >
-          Portfolio
-        </a>
-
-        <div className="flex items-center gap-6">
-          <a className="nav-link opacity-80 hover:opacity-100 transition" href={`/${lang}/about`}>
-            About
-          </a>
-          <a className="nav-link opacity-80 hover:opacity-100 transition" href={`/${lang}/projects`}>
-            Projects
-          </a>
-          <a className="nav-link opacity-80 hover:opacity-100 transition" href={`/${lang}/contact`}>
-            Contact
-          </a>
-
-          <a
-            className="nav-link opacity-60 hover:opacity-100 transition text-sm ml-2"
-            href={`/${otherLang}`}
-          >
-            {otherLang.toUpperCase()}
-          </a>
-        </div>
-      </div>
-    </nav>
-  );
+  return <NavbarClient lang={lang} dict={dict} otherLang={otherLang} />;
 }
