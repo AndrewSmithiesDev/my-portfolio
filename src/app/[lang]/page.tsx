@@ -1,18 +1,18 @@
 import { getDictionary } from "@/lib/getDictionary";
 
-export function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "fr" }];
-}
+export default async function LangPage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
 
-export default async function LangPage({ params }: { params: { lang: string } }) {
-  const { lang } = await params; // ← unwrap the Promise
-
-  const dict = getDictionary(lang);
+  const dict = await getDictionary(lang);
 
   return (
-    <main className="p-8">
+    <main className="space-y-4">
       <h1 className="text-4xl font-bold">{dict.hero.title}</h1>
-      <p className="text-lg mt-2">{dict.hero.subtitle}</p>
+      <p className="text-lg text-gray-300">{dict.hero.subtitle}</p>
     </main>
   );
 }

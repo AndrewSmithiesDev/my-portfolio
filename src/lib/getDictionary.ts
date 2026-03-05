@@ -1,6 +1,9 @@
-import en from "@/locales/en.json";
-import fr from "@/locales/fr.json";
-
-export function getDictionary(lang: string) {
-  return lang === "fr" ? fr : en;
+export async function getDictionary(lang: string) {
+  switch (lang) {
+    case "en":
+      return (await import("../locales/en.json")).default;
+    case "fr":
+    default:
+      return (await import("../locales/fr.json")).default;
+  }
 }
