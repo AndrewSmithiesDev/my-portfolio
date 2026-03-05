@@ -84,7 +84,10 @@ export default function NavbarClient({
             {dict.nav.contact}
           </a>
 
-          <a className="nav-link opacity-60 text-sm" href={`/${otherLang}`}>
+          <a
+            className="nav-link opacity-60 text-sm"
+            href={`/${otherLang}`}
+          >
             {otherLang.toUpperCase()}
           </a>
 

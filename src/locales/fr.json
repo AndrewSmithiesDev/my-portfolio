@@ -8,9 +8,9 @@
   },
   "hero": {
     "name": "Andrew Smithies",
-    "role": "Développeur Web & Mobile",
-    "description": "Je conçois des expériences numériques élégantes et performantes avec un code propre et des interfaces réfléchies.",
-    "ctaProjects": "Voir les projets",
+    "role": "Développeur Web & Web Mobile Full-Stack",
+    "description": "Issu de l’enseignement des mathématiques, je me suis reconverti dans le développement web et mobile, où je mets à profit mon sens de l’analyse, de la pédagogie et de la conception claire.",
+    "ctaProjects": "Voir mes projets",
     "ctaContact": "Me contacter"
   }
 }

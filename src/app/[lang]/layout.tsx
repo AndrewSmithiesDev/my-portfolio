@@ -1,4 +1,6 @@
 import Navbar from "@/components/Navbar";
+import { getDictionary } from "@/lib/getDictionary";
+import { DictionaryProvider } from "@/components/DictionaryContext";
 
 export default async function LangLayout({
   children,
@@ -8,11 +10,12 @@ export default async function LangLayout({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
+  const dict = await getDictionary(lang);
 
   return (
-    <>
-      <Navbar lang={lang} />
+    <DictionaryProvider dict={dict} lang={lang}>
+      <Navbar />
       {children}
-    </>
+    </DictionaryProvider>
   );
 }

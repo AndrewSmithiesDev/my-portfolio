@@ -1,15 +1,14 @@
-type HeroProps = {
-    dict: any;
-  };
+"use client"
+import { useDictionary } from "@/components/DictionaryContext";
   
-  export default function Hero({ dict }: HeroProps) {
+export default function Hero() {
+  const { dict } = useDictionary();
     return (
       <section id="hero" className="hero section flex flex-col items-center text-center">
         <div
-          className="w-36 h-36 rounded-full overflow-hidden border shadow-sm mb-6"
-          style={{ borderColor: "var(--border)" }}
+          className="w-36 h-36 rounded-full overflow-hidden border border-sage-500 mb-6"
         >
-          <img src="/profile-photo.png" alt={dict.hero.name} className="w-full h-full object-contain" />
+          <img src="/profile-photo.png" alt={dict.hero.name} className="w-full h-full object-cover" />
         </div>
   
         <h1 className="heading-hero block">{dict.hero.name}</h1>
@@ -29,7 +28,7 @@ type HeroProps = {
           </a>
         </div>
   
-        <div className="mt-12 opacity-60">↓</div>
+        <a href="#about" className="mt-16 block animate-bounce text-sage-500 text-3xl opacity-60">↓</a>
       </section>
     );
   }

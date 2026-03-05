@@ -1,13 +1,16 @@
-import { getDictionary } from "@/lib/getDictionary";
+"use client";
+
 import NavbarClient from "./NavbarClient";
+import { useDictionary } from "@/components/DictionaryContext";
 
-type NavbarProps = {
-  lang: string;
-};
+export default function Navbar() {
+  const { dict, lang } = useDictionary();
 
-export default async function Navbar({ lang }: NavbarProps) {
-  const dict = await getDictionary(lang);
-  const otherLang = lang === "fr" ? "en" : "fr";
-
-  return <NavbarClient lang={lang} dict={dict} otherLang={otherLang} />;
+  return (
+    <NavbarClient
+      dict={dict}
+      lang={lang}
+      otherLang={lang === "en" ? "fr" : "en"}
+    />
+  );
 }
