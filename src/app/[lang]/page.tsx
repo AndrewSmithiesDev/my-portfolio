@@ -1,5 +1,6 @@
 import About from "@/components/about/About";
 import Hero from "@/components/hero/Hero";
+import ProjectsSection from "@/components/projects/ProjectsSection";
 import SkillsSection from "@/components/skills/SkillsSection";
 
 export default function Page() {
@@ -8,6 +9,7 @@ export default function Page() {
     <Hero />
     <About />
     <SkillsSection />
+    <ProjectsSection />
     </>
   ); 
 }
