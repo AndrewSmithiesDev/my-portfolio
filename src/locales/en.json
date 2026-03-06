@@ -102,5 +102,10 @@
     "subtitle": "Feel free to reach out for opportunities or collaborations.",
     "emailButton": "Send me an email",
     "socialTitle": "Find me online"
+  },
+  "footer": {
+    "madeBy": "Designed and built by Andrew Smithies",
+    "backToTop": "Back to top",
+    "rights": "All rights reserved"
   }
 }

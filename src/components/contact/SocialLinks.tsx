@@ -1,4 +1,4 @@
-import { Github, Linkedin } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function SocialLinks() {
   return (
@@ -8,7 +8,7 @@ export default function SocialLinks() {
         target="_blank"
         className="text-secondary hover:text-[var(--accent)] transition"
       >
-        <Github size={28} />
+        <FaGithub size={24} />{" "}
       </a>
 
       <a
@@ -16,7 +16,7 @@ export default function SocialLinks() {
         target="_blank"
         className="text-secondary hover:text-[var(--accent)] transition"
       >
-        <Linkedin size={28} />
+        <FaLinkedin size={24} />{" "}
       </a>
     </div>
   );

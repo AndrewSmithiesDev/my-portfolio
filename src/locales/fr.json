@@ -102,5 +102,10 @@
     "subtitle": "N'hésitez pas à me contacter pour une opportunité ou une collaboration.",
     "emailButton": "Envoyer un email",
     "socialTitle": "Retrouvez-moi en ligne"
+  },
+  "footer": {
+    "madeBy": "Conçu et développé par Andrew Smithies",
+    "backToTop": "Retour en haut",
+    "rights": "Tous droits réservés"
   }
 }

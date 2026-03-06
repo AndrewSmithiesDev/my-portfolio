@@ -125,6 +125,12 @@ html {
   color: var(--text-primary);
 }
 
+.text-small {
+  font-size: var(--font-small);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+}
+
 /* -------------------------------------------------------
    SPACING UTILITIES
 ------------------------------------------------------- */
