@@ -206,3 +206,22 @@ html {
 .mobile-menu-content {
   animation: menuFadeIn 0.25s ease forwards;
 }
+
+@keyframes orb {
+  0% {
+    transform: translate(-20px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(20px, -20px) scale(1.05);
+  }
+  66% {
+    transform: translate(0px, 20px) scale(0.97);
+  }
+  100% {
+    transform: translate(-20px, 0px) scale(1);
+  }
+}
+
+.animate-orb {
+  animation: orb 8s ease-in-out infinite;
+}

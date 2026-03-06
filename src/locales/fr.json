@@ -16,11 +16,26 @@
   },
   "about": {
     "title": "À propos de moi",
-    "paragraph1":
-      "Ancien professeur de mathématiques, je me suis reconverti dans le développement web et mobile, où mon esprit analytique et mon goût pour la résolution de problèmes ont trouvé leur place.",
-    "paragraph2":
-      "L’enseignement m’a appris à expliquer clairement des concepts complexes, à structurer ma réflexion et à aborder chaque défi avec rigueur et pédagogie—des compétences que j’applique désormais à la conception et au développement d’applications.",
-    "paragraph3":
-      "Aujourd’hui, je travaille avec des outils modernes comme React Native, TypeScript, Symfony et Vue.js pour créer des applications fiables, maintenables et centrées sur l’expérience utilisateur."
+    "paragraph1": "Ancien professeur de mathématiques, je me suis reconverti dans le développement web et mobile, où mon esprit analytique et mon goût pour la résolution de problèmes ont trouvé leur place.",
+    "paragraph2": "L’enseignement m’a appris à expliquer clairement des concepts complexes, à structurer ma réflexion et à aborder chaque défi avec rigueur et pédagogie—des compétences que j’applique désormais à la conception et au développement d’applications.",
+    "paragraph3": "Aujourd’hui, je travaille avec des outils modernes comme React Native, TypeScript, Symfony et Vue.js pour créer des applications fiables, maintenables et centrées sur l’expérience utilisateur."
+  },
+  "skills": {
+    "title": "Compétences",
+    "filters": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Outils"
+    },
+    "trainingTitle": "Formation & Parcours",
+    "training": {
+      "tp": "Titre Professionnel Développeur Web et Web Mobile (Bac +2)",
+      "cda": "En préparation : Concepteur Développeur d’Applications (Bac +3)",
+      "stage": "Stage : LittleBill, Lyon — React Native (TypeScript)",
+      "bootcamp": "Bootcamp d’un mois à l’École 42",
+      "stem": "Licence BSc (Honours) STEM — Open University (2017–2020)",
+      "teachingCert": "Master en éducation et formation — Hopwood Hall College (2018)",
+      "teaching": "Ancien professeur de mathématiques (2013–2024)"
+    }
   }
 }

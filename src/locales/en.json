@@ -16,11 +16,26 @@
   },
   "about": {
     "title": "About Me",
-    "paragraph1":
-      "I'm a former mathematics teacher who transitioned into web and mobile development, where my analytical mindset and love of problem-solving found a natural home.",
-    "paragraph2":
-      "Teaching taught me to break down complex ideas, communicate clearly, and approach challenges with structure and patience—skills I now apply to designing and building applications.",
-    "paragraph3":
-      "Today I work with modern tools like React Native, TypeScript, Symfony and Vue.js to create reliable, maintainable applications with thoughtful user experiences."
+    "paragraph1": "I'm a former mathematics teacher who transitioned into web and mobile development, where my analytical mindset and love of problem-solving found a natural home.",
+    "paragraph2": "Teaching taught me to break down complex ideas, communicate clearly, and approach challenges with structure and patience—skills I now apply to designing and building applications.",
+    "paragraph3": "Today I work with modern tools like React Native, TypeScript, Symfony and Vue.js to create reliable, maintainable applications with thoughtful user experiences."
+  },
+  "skills": {
+    "title": "Skills",
+    "filters": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "trainingTitle": "Training & Education",
+    "training": {
+      "tp": "Professional Title: Web & Mobile Developer (Bac +2)",
+      "cda": "Currently preparing: Application Developer Designer (Bac +3)",
+      "stage": "Internship: LittleBill, Lyon — React Native (TypeScript)",
+      "bootcamp": "One-month bootcamp at École 42",
+      "stem": "BSc (Honours) STEM — Open University (2017–2020)",
+      "teachingCert": "Teaching qualification — Hopwood Hall College (2018)",
+      "teaching": "Former mathematics teacher (2013–2024)"
+    }
   }
 }

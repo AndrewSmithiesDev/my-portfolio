@@ -74,7 +74,7 @@ export default function NavbarClient({
           <a className="nav-link opacity-80" href="#about">
             {dict.nav.about}
           </a>
-          <a className="nav-link opacity-80" href="#projects">
+          <a className="nav-link opacity-80" href="#skills">
             {dict.nav.skills}
           </a>
           <a className="nav-link opacity-80" href="#projects">
@@ -125,6 +125,13 @@ export default function NavbarClient({
             onClick={() => setOpen(false)}
           >
             {dict.nav.about}
+          </a>
+          <a
+            className="nav-link opacity-80 text-lg"
+            href="#skills"
+            onClick={() => setOpen(false)}
+          >
+            {dict.nav.skills}
           </a>
 
           <a
