@@ -41,14 +41,12 @@
   "projects": {
     "title": "Projects",
     "subtitle": "A selection of projects showcasing my front-end and design journey.",
-
     "filters": {
       "all": "All",
       "web": "Web",
       "javascript": "JavaScript",
       "design": "Design"
     },
-
     "figmaCamping": {
       "title": "Mockup: Camping Website",
       "description": "A web and mobile mockup created in collaboration."
@@ -97,7 +95,12 @@
       "title": "Dice Game – JS Challenge",
       "description": "A small JavaScript game built during early JS practice."
     },
-
     "viewProject": "View project"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to reach out for opportunities or collaborations.",
+    "emailButton": "Send me an email",
+    "socialTitle": "Find me online"
   }
 }

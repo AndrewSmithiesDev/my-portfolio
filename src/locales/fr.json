@@ -41,14 +41,12 @@
   "projects": {
     "title": "Projets",
     "subtitle": "Une sélection de projets illustrant mon apprentissage du front-end et du design.",
-
     "filters": {
       "all": "Tous",
       "web": "Web",
       "javascript": "JavaScript",
       "design": "Design"
     },
-
     "figmaCamping": {
       "title": "Maquette : Site de Camping",
       "description": "Une maquette web et mobile réalisée en binôme."
@@ -97,7 +95,12 @@
       "title": "Jeu de Dés – Challenge JS",
       "description": "Un mini jeu JavaScript réalisé lors de l’apprentissage du JS."
     },
-
     "viewProject": "Voir le projet"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "N'hésitez pas à me contacter pour une opportunité ou une collaboration.",
+    "emailButton": "Envoyer un email",
+    "socialTitle": "Retrouvez-moi en ligne"
   }
 }
