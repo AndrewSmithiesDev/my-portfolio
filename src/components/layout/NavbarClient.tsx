@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import ThemeToggleWrapper from "./ThemeToggleWrapper";
+import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 
 export default function NavbarClient({
   lang,
@@ -84,12 +85,7 @@ export default function NavbarClient({
             {dict.nav.contact}
           </a>
 
-          <a
-            className="nav-link opacity-60 text-sm"
-            href={`/${otherLang}`}
-          >
-            {otherLang.toUpperCase()}
-          </a>
+          <LanguageSwitcher currentLang={lang} />
 
           <ThemeToggleWrapper />
         </div>

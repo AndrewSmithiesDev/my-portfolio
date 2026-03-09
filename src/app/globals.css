@@ -19,7 +19,7 @@
   --text-secondary: #555555;
 
   /* Typography scale */
-  --font-hero: 3.5rem;
+  --font-hero: 2.5rem;
   --font-h1: 2.5rem;
   --font-h2: 2rem;
   --font-h3: 1.5rem;
@@ -46,7 +46,7 @@
   --text-primary: var(--foreground);
   --text-secondary: #b3b3b3;
 
-  --font-hero: 3.5rem;
+  --font-hero: 2.5rem;
   --font-h1: 2.5rem;
   --font-h2: 2rem;
   --font-h3: 1.5rem;
@@ -230,4 +230,17 @@ html {
 
 .animate-orb {
   animation: orb 8s ease-in-out infinite;
+}
+
+
+@media (min-width: 640px) {
+  :root {
+    --font-hero: 3rem; /* small tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --font-hero: 3.5rem; /* desktop */
+  }
 }

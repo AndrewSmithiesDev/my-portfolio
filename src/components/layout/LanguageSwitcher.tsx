@@ -3,30 +3,32 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-export default function LanguageSwitcher({ currentLang }: { currentLang: string }) {
+export default function LanguageSwitcher({
+  currentLang,
+}: {
+  currentLang: string;
+}) {
   const pathname = usePathname();
 
-  // Split into segments: ["", "en", "projects"]
+  const otherLang = currentLang === "en" ? "fr" : "en";
+
+  // Split into segments: ["", "en", "projects"] or ["", "fr"]
   const segments = pathname.split("/");
 
-  // Compute EN path
-  const enSegments = [...segments];
-  enSegments[1] = "en";
-  const enPath = enSegments.join("/") || "/en";
+  // Replace the language segment
+  const newSegments = [...segments];
+  newSegments[1] = otherLang;
 
-  // Compute FR path
-  const frSegments = [...segments];
-  frSegments[1] = "fr";
-  const frPath = frSegments.join("/") || "/fr";
+  // Rebuild the path
+  const newPath = newSegments.join("/") || `/${otherLang}`;
 
   return (
-    <div className="flex gap-4">
-      <Link href={enPath} className={currentLang === "en" ? "font-bold" : ""}>
-        EN
-      </Link>
-      <Link href={frPath} className={currentLang === "fr" ? "font-bold" : ""}>
-        FR
-      </Link>
-    </div>
+    <Link
+      href={newPath}
+      scroll={false}
+      className="nav-link opacity-60 text-sm hover:opacity-100 transition"
+    >
+      {otherLang.toUpperCase()}
+    </Link>
   );
 }
