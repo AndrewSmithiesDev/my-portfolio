@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "portfolio": "Portfolio",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Andrew Smithies",
+    "role": "Full-Stack Web & Mobile Developer",
+    "description": "After a career teaching mathematics, I now design and build web and mobile applications where analytical thinking, clarity, and user‑focused design come together.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch",
+    "scrollToAbout": "Scroll to About section"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm a former mathematics teacher who transitioned into web and mobile development, where my analytical mindset and love of problem-solving found a natural home.",
+    "paragraph2": "Teaching taught me to break down complex ideas, communicate clearly, and approach challenges with structure and patience—skills I now apply to designing and building applications.",
+    "paragraph3": "Today I work with modern tools like React Native, TypeScript, Symfony and Vue.js to create reliable, maintainable applications with thoughtful user experiences."
+  },
+  "skills": {
+    "title": "Skills",
+    "filters": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    },
+    "trainingTitle": "Training & Education",
+    "training": {
+      "tp": "Professional Title: Web & Mobile Developer (Bac +2)",
+      "cda": "Currently preparing: Application Developer Designer (Bac +3)",
+      "stage": "Internship: LittleBill, Lyon — React Native (TypeScript)",
+      "bootcamp": "One-month bootcamp at École 42",
+      "stem": "BSc (Honours) STEM — Open University (2017–2020)",
+      "teachingCert": "Teaching qualification — Hopwood Hall College (2018)",
+      "teaching": "Former mathematics teacher (2013–2024)"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of projects showcasing my front-end and design journey.",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "javascript": "JavaScript",
+      "design": "Design"
+    },
+    "figmaCamping": {
+      "title": "Mockup: Camping Website",
+      "description": "A web and mobile mockup created in collaboration."
+    },
+    "figmaSport": {
+      "title": "Mockup: Sport Website",
+      "description": "A responsive mockup for a sports website."
+    },
+    "loruki": {
+      "title": "Cloud Hosting Website",
+      "description": "A static website built from a YouTube tutorial."
+    },
+    "saas": {
+      "title": "App Landing Page",
+      "description": "A landing page built during early JavaScript learning."
+    },
+    "monogram": {
+      "title": "Audio Website Landing Page",
+      "description": "A small project built while learning CSS."
+    },
+    "bento": {
+      "title": "Bento Grid Mini Project",
+      "description": "A layout built while learning CSS Grid."
+    },
+    "fourCard": {
+      "title": "Responsive Grid Mini Project",
+      "description": "A responsive grid layout using CSS Grid and media queries."
+    },
+    "coffee": {
+      "title": "Coffee Shop Bootstrap Website",
+      "description": "A Bootstrap project built from a YouTube tutorial."
+    },
+    "greentech": {
+      "title": "GreenTech SCSS Project",
+      "description": "A collaborative project built while learning SCSS/SASS."
+    },
+    "accordion": {
+      "title": "Accordion JS Mini Project",
+      "description": "A small interactive component built while learning JavaScript."
+    },
+    "mortgage": {
+      "title": "Mortgage Calculator",
+      "description": "A JS calculator built during JavaScript learning."
+    },
+    "dice": {
+      "title": "Dice Game – JS Challenge",
+      "description": "A small JavaScript game built during early JS practice."
+    },
+    "viewProject": "View project"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to reach out for opportunities or collaborations.",
+    "emailButton": "Send me an email",
+    "socialTitle": "Find me online"
+  },
+  "footer": {
+    "madeBy": "Designed and built by Andrew Smithies",
+    "backToTop": "Back to top",
+    "rights": "All rights reserved"
+  }
+}

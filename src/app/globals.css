@@ -1,26 +1,246 @@
-@import "tailwindcss";
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* -------------------------------------------------------
+   THEME TOKENS
+------------------------------------------------------- */
+
+/* Light mode (default) */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fafafa;
+  --foreground: #1a1a1a;
+  --accent: #6e8f7a;
+  --surface: #f5f5f5;
+  --border: rgba(0, 0, 0, 0.1);
+
+  --text-primary: var(--foreground);
+  --text-secondary: #555555;
+
+  /* Typography scale */
+  --font-hero: 2.5rem;
+  --font-h1: 2.5rem;
+  --font-h2: 2rem;
+  --font-h3: 1.5rem;
+  --font-body: 1.125rem;
+  --font-small: 0.95rem;
+
+  /* Line heights */
+  --leading-tight: 1.1;
+  --leading-normal: 1.5;
+
+  /* Spacing scale */
+  --space-section: 6rem;
+  --space-block: 1.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Dark mode (activated by <html class="dark">) */
+.dark {
+  --background: #1a1a1a;
+  --foreground: #f5f5f5;
+  --accent: #8fbf9a;
+  --surface: #2a2a2a;
+  --border: rgba(255, 255, 255, 0.15);
+
+  --text-primary: var(--foreground);
+  --text-secondary: #b3b3b3;
+
+  --font-hero: 2.5rem;
+  --font-h1: 2.5rem;
+  --font-h2: 2rem;
+  --font-h3: 1.5rem;
+  --font-body: 1.125rem;
+  --font-small: 0.95rem;
+
+  --leading-tight: 1.1;
+  --leading-normal: 1.5;
+
+  --space-section: 6rem;
+  --space-block: 1.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* -------------------------------------------------------
+   GLOBAL ELEMENTS
+------------------------------------------------------- */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* -------------------------------------------------------
+   TEXT UTILITIES
+------------------------------------------------------- */
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+/* Typography scale */
+.heading-hero {
+  font-size: var(--font-hero);
+  line-height: var(--leading-tight);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.heading-1 {
+  font-size: var(--font-h1);
+  line-height: var(--leading-tight);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.heading-2 {
+  font-size: var(--font-h2);
+  line-height: var(--leading-tight);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.heading-3 {
+  font-size: var(--font-h3);
+  line-height: var(--leading-tight);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.text-body {
+  font-size: var(--font-body);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+}
+
+.text-small {
+  font-size: var(--font-small);
+  line-height: var(--leading-normal);
+  color: var(--text-primary);
+}
+
+/* -------------------------------------------------------
+   SPACING UTILITIES
+------------------------------------------------------- */
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.block {
+  margin-bottom: var(--space-block);
+}
+
+/* Hero offset so it doesn't sit under navbar */
+.hero {
+  padding-top: calc(var(--space-section));
+  padding-bottom: calc(var(--space-section) / 2);
+}
+
+/* -------------------------------------------------------
+   BUTTONS
+------------------------------------------------------- */
+
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-[var(--accent)] text-white hover:opacity-90;
+}
+
+.btn-soft {
+  @apply bg-[var(--surface)] text-[var(--foreground)] hover:bg-opacity-80;
+}
+
+/* -------------------------------------------------------
+   CARDS
+------------------------------------------------------- */
+
+.card {
+  @apply bg-[var(--surface)] border rounded-lg p-6 shadow-sm;
+  border-color: var(--border);
+}
+
+/* -------------------------------------------------------
+   NAVIGATION
+------------------------------------------------------- */
+
+.navbar {
+  @apply fixed top-0 left-0 w-full z-50 backdrop-blur-md border-b;
+  background: color-mix(in srgb, var(--background) 70%, transparent);
+  border-color: var(--border);
+}
+
+.nav-link {
+  @apply transition-colors duration-200;
+  color: var(--foreground);
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------
+   ANIMATION
+------------------------------------------------------- */
+
+@keyframes menuFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mobile-menu-content {
+  animation: menuFadeIn 0.25s ease forwards;
+}
+
+@keyframes orb {
+  0% {
+    transform: translate(-20px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(20px, -20px) scale(1.05);
+  }
+  66% {
+    transform: translate(0px, 20px) scale(0.97);
+  }
+  100% {
+    transform: translate(-20px, 0px) scale(1);
+  }
+}
+
+.animate-orb {
+  animation: orb 8s ease-in-out infinite;
+}
+
+
+@media (min-width: 640px) {
+  :root {
+    --font-hero: 3rem; /* small tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --font-hero: 3.5rem; /* desktop */
+  }
 }

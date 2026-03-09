@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Andrew Smithies",
+    "role": "Développeur Web & Web Mobile Full-Stack",
+    "description": "Issu de l’enseignement des mathématiques, je me suis reconverti dans le développement web et mobile, où je mets à profit mon sens de l’analyse, de la pédagogie et de la conception claire.",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "scrollToAbout": "Faire défiler vers la section À propos"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "paragraph1": "Ancien professeur de mathématiques, je me suis reconverti dans le développement web et mobile, où mon esprit analytique et mon goût pour la résolution de problèmes ont trouvé leur place.",
+    "paragraph2": "L’enseignement m’a appris à expliquer clairement des concepts complexes, à structurer ma réflexion et à aborder chaque défi avec rigueur et pédagogie—des compétences que j’applique désormais à la conception et au développement d’applications.",
+    "paragraph3": "Aujourd’hui, je travaille avec des outils modernes comme React Native, TypeScript, Symfony et Vue.js pour créer des applications fiables, maintenables et centrées sur l’expérience utilisateur."
+  },
+  "skills": {
+    "title": "Compétences",
+    "filters": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Outils"
+    },
+    "trainingTitle": "Formation & Parcours",
+    "training": {
+      "tp": "Titre Professionnel Développeur Web et Web Mobile (Bac +2)",
+      "cda": "En préparation : Concepteur Développeur d’Applications (Bac +3)",
+      "stage": "Stage : LittleBill, Lyon — React Native (TypeScript)",
+      "bootcamp": "Bootcamp d’un mois à l’École 42",
+      "stem": "Licence BSc (Honours) STEM — Open University (2017–2020)",
+      "teachingCert": "Master en éducation et formation — Hopwood Hall College (2018)",
+      "teaching": "Ancien professeur de mathématiques (2013–2024)"
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Une sélection de projets illustrant mon apprentissage du front-end et du design.",
+    "filters": {
+      "all": "Tous",
+      "web": "Web",
+      "javascript": "JavaScript",
+      "design": "Design"
+    },
+    "figmaCamping": {
+      "title": "Maquette : Site de Camping",
+      "description": "Une maquette web et mobile réalisée en binôme."
+    },
+    "figmaSport": {
+      "title": "Maquette : Site Sportif",
+      "description": "Une maquette web et mobile pour un site sportif."
+    },
+    "loruki": {
+      "title": "Site de Cloud Hosting",
+      "description": "Un site statique réalisé à partir d’un tutoriel YouTube."
+    },
+    "saas": {
+      "title": "Landing Page d’Application",
+      "description": "Une landing page réalisée lors de l’apprentissage du JavaScript."
+    },
+    "monogram": {
+      "title": "Landing Page Audio",
+      "description": "Un mini projet réalisé lors de l’apprentissage du CSS."
+    },
+    "bento": {
+      "title": "Mini Projet Bento Grid",
+      "description": "Un mini projet réalisé lors de l’apprentissage de CSS Grid."
+    },
+    "fourCard": {
+      "title": "Mini Projet Responsive Grid",
+      "description": "Un mini projet utilisant CSS Grid et les media queries."
+    },
+    "coffee": {
+      "title": "Site Coffee Shop Bootstrap",
+      "description": "Un projet Bootstrap réalisé à partir d’un tutoriel YouTube."
+    },
+    "greentech": {
+      "title": "Projet GreenTech SCSS",
+      "description": "Un projet en binôme réalisé lors de l’apprentissage de SCSS/SASS."
+    },
+    "accordion": {
+      "title": "Mini Projet Accordion JS",
+      "description": "Un mini projet interactif réalisé lors de l’apprentissage du JavaScript."
+    },
+    "mortgage": {
+      "title": "Calculateur d’Hypothèque",
+      "description": "Un calculateur réalisé lors de l’apprentissage du JavaScript."
+    },
+    "dice": {
+      "title": "Jeu de Dés – Challenge JS",
+      "description": "Un mini jeu JavaScript réalisé lors de l’apprentissage du JS."
+    },
+    "viewProject": "Voir le projet"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "N'hésitez pas à me contacter pour une opportunité ou une collaboration.",
+    "emailButton": "Envoyer un email",
+    "socialTitle": "Retrouvez-moi en ligne"
+  },
+  "footer": {
+    "madeBy": "Conçu et développé par Andrew Smithies",
+    "backToTop": "Retour en haut",
+    "rights": "Tous droits réservés"
+  }
+}
