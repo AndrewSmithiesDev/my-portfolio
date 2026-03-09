@@ -5,6 +5,7 @@ export default function SocialLinks() {
     <div className="flex justify-center gap-6">
       <a
         href="https://github.com/andrewsmithiesdev"
+        aria-label="GitHub profile"
         target="_blank"
         className="text-secondary hover:text-[var(--accent-foreground)] transition"
       >
@@ -13,6 +14,7 @@ export default function SocialLinks() {
 
       <a
         href="https://www.linkedin.com/in/andrew-smithies-78789935b/"
+        aria-label="LinkedIn profile"
         target="_blank"
         className="text-secondary hover:text-[var(--accent-foreground)] transition"
       >

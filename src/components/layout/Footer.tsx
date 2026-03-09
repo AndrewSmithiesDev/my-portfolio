@@ -14,6 +14,7 @@ export default function Footer() {
         <div className="flex gap-6">
           <a
             href="https://github.com/andrewsmithiesdev"
+            aria-label="GitHub profile"
             target="_blank"
             className="text-secondary hover:text-[var(--accent-foreground)] transition"
           >
@@ -22,6 +23,7 @@ export default function Footer() {
 
           <a
             href="https://www.linkedin.com/in/andrew-smithies/"
+            aria-label="LinkedIn profile"
             target="_blank"
             className="text-secondary hover:text-[var(--accent-foreground)] transition"
           >
