@@ -15,7 +15,7 @@ export default function Footer() {
           <a
             href="https://github.com/andrewsmithiesdev"
             target="_blank"
-            className="text-secondary hover:text-[var(--accent)] transition"
+            className="text-secondary hover:text-[var(--accent-foreground)] transition"
           >
             <FaGithub size={24} />{" "}
           </a>
@@ -23,7 +23,7 @@ export default function Footer() {
           <a
             href="https://www.linkedin.com/in/andrew-smithies/"
             target="_blank"
-            className="text-secondary hover:text-[var(--accent)] transition"
+            className="text-secondary hover:text-[var(--accent-foreground)] transition"
           >
             <FaLinkedin size={24} />{" "}
           </a>
@@ -31,7 +31,7 @@ export default function Footer() {
 
         <a
           href="#top"
-          className="text-xs text-secondary hover:text-[var(--accent)] transition"
+          className="text-xs text-secondary hover:text-[var(--accent-foreground)] transition"
         >
           ↑ {dict.footer.backToTop}
         </a>

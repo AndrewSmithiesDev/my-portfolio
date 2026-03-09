@@ -6,7 +6,7 @@ export default function SocialLinks() {
       <a
         href="https://github.com/andrewsmithiesdev"
         target="_blank"
-        className="text-secondary hover:text-[var(--accent)] transition"
+        className="text-secondary hover:text-[var(--accent-foreground)] transition"
       >
         <FaGithub size={24} />{" "}
       </a>
@@ -14,7 +14,7 @@ export default function SocialLinks() {
       <a
         href="https://www.linkedin.com/in/andrew-smithies-78789935b/"
         target="_blank"
-        className="text-secondary hover:text-[var(--accent)] transition"
+        className="text-secondary hover:text-[var(--accent-foreground)] transition"
       >
         <FaLinkedin size={24} />{" "}
       </a>

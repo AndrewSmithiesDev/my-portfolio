@@ -5,7 +5,7 @@ type SkillIconProps = {
   
   export default function SkillIcon({ children, className = "" }: SkillIconProps) {
     return (
-      <div className={`w-12 h-12 text-[var(--accent)] ${className}`}>
+      <div className={`w-12 h-12 text-[var(--accent-foreground)] ${className}`}>
         {children}
       </div>
     );

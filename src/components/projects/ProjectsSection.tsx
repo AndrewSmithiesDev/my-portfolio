@@ -33,8 +33,8 @@ export default function ProjectsSection() {
               className={[
                 "rounded-full border px-4 py-1 text-sm transition",
                 filter === f
-                  ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent)]"
-                  : "border-[var(--sage-300)] text-[var(--muted-foreground)] hover:border-[var(--accent)] hover:text-[var(--accent)]"
+                  ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--accent-foreground)]"
+                  : "border-[var(--sage-300)] text-[var(--muted-foreground)] hover:border-[var(--accent)] hover:text-[var(--accent-foreground)]"
               ].join(" ")}
             >
               {dict.projects.filters[f]}

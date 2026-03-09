@@ -33,7 +33,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           {project.tags.map(tag => (
             <span
               key={tag}
-              className="rounded-full bg-[var(--sage-100)] px-2 py-1 text-xs font-medium text-[var(--accent)]"
+              className="rounded-full bg-[var(--sage-100)] px-2 py-1 text-xs font-medium text-[var(--accent-foreground)]"
             >
               {tag}
             </span>
@@ -43,7 +43,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <a
           href={project.link}
           target="_blank"
-          className="text-sm font-medium text-[var(--accent)] underline underline-offset-4"
+          className="text-sm font-medium text-[var(--accent-foreground)] underline underline-offset-4"
         >
           {dict.projects.viewProject}
         </a>

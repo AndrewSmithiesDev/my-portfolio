@@ -16,7 +16,7 @@ export default function ContactSection() {
 
       <a
         href="mailto:andrewsmithiesdev@gmail.com"
-        className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-[var(--accent)] text-[var(--accent)] hover:bg-[var(--accent-soft)] transition"
+        className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-[var(--accent)] text-[var(--accent-foreground)] hover:bg-[var(--accent-soft)] transition"
       >
         <Mail size={18} />
         {dict.contact.emailButton}
