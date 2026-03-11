@@ -95,6 +95,10 @@
       "title": "Jeu de Dés – Challenge JS",
       "description": "Un mini jeu JavaScript réalisé lors de l’apprentissage du JS."
     },
+    "movieSearch": {
+      "title": "Application de Recherche de Films – React & API",
+      "description": "Une application React responsive permettant de parcourir les films populaires, de rechercher dans la base TMDB en temps réel et d’enregistrer des favoris pour un accès rapide."
+    },
     "viewProject": "Voir le projet"
   },
   "contact": {

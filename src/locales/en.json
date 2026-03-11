@@ -95,6 +95,10 @@
       "title": "Dice Game – JS Challenge",
       "description": "A small JavaScript game built during early JS practice."
     },
+    "movieSearch": {
+      "title": "Movie Search App – React & API",
+      "description": "A responsive React application that lets users browse popular films, search the TMDB database in real time, and save favorites locally for quick access."
+    },
     "viewProject": "View project"
   },
   "contact": {

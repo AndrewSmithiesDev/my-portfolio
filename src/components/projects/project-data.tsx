@@ -11,6 +11,38 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "movie-search",
+    dictKey: "movieSearch",
+    image: "/projects/movie-app.png",
+    link: "https://favefilms.netlify.app/",
+    tags: ["React", "Vite", "TMDB API", "JavaScript", "CSS"],
+    category: "web",
+  },
+  {
+    id: "accordion",
+    dictKey: "accordion",
+    image: "/projects/accordion-project.png",
+    link: "https://andrewsmithiesdev.github.io/faq-accordion-main/",
+    tags: ["HTML", "CSS", "JavaScript", "Frontend Mentor"],
+    category: "javascript",
+  },
+  {
+    id: "mortgage",
+    dictKey: "mortgage",
+    image: "/projects/mortgage-calculator.png",
+    link: "https://andrewsmithiesdev.github.io/mortgage-repayment-calculator-main/",
+    tags: ["HTML", "CSS", "SCSS", "JavaScript", "Frontend Mentor"],
+    category: "javascript",
+  },
+  {
+    id: "saas",
+    dictKey: "saas",
+    image: "/projects/saas-website.png",
+    link: "https://andrewsmithiesdev.github.io/saas-andrew/",
+    tags: ["HTML", "CSS", "JavaScript"],
+    category: "javascript",
+  },
+  {
     id: "figma-camping",
     dictKey: "figmaCamping",
     image: "/projects/figma-camping-site.png",
@@ -34,14 +66,7 @@ export const projects: Project[] = [
     tags: ["HTML", "CSS", "Responsive"],
     category: "web",
   },
-  {
-    id: "saas",
-    dictKey: "saas",
-    image: "/projects/saas-website.png",
-    link: "https://andrewsmithiesdev.github.io/saas-andrew/",
-    tags: ["HTML", "CSS", "JavaScript"],
-    category: "javascript",
-  },
+
   {
     id: "monogram",
     dictKey: "monogram",
@@ -82,22 +107,7 @@ export const projects: Project[] = [
     tags: ["HTML", "CSS", "Bootstrap", "SCSS"],
     category: "web",
   },
-  {
-    id: "accordion",
-    dictKey: "accordion",
-    image: "/projects/accordion-project.png",
-    link: "https://andrewsmithiesdev.github.io/faq-accordion-main/",
-    tags: ["HTML", "CSS", "JavaScript", "Frontend Mentor"],
-    category: "javascript",
-  },
-  {
-    id: "mortgage",
-    dictKey: "mortgage",
-    image: "/projects/mortgage-calculator.png",
-    link: "https://andrewsmithiesdev.github.io/mortgage-repayment-calculator-main/",
-    tags: ["HTML", "CSS", "SCSS", "JavaScript", "Frontend Mentor"],
-    category: "javascript",
-  },
+
   {
     id: "dice",
     dictKey: "dice",
@@ -106,4 +116,5 @@ export const projects: Project[] = [
     tags: ["HTML", "CSS", "SCSS", "JavaScript"],
     category: "javascript",
   },
+  
 ];
