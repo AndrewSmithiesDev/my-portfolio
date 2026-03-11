@@ -29,6 +29,13 @@ export const metadata: Metadata = {
       "Bilingual web and mobile developer with a STEM background and teaching experience.",
     images: ["/og-image.png"],
   },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.svg" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
