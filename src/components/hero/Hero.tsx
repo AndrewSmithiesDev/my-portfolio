@@ -23,6 +23,10 @@ export default function Hero() {
 
       <p className="text-secondary mt-2">{dict.hero.role}</p>
 
+      <p className="mt-4 px-4 py-1 border border-sage-500 rounded-full text-small italic bg-sage-500/10 text-primary">
+        {dict.hero.role2}
+      </p>
+
       <p className="text-body text-secondary max-w-xl mt-4">
         {dict.hero.description}
       </p>

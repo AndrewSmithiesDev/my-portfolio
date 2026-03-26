@@ -9,7 +9,8 @@
   "hero": {
     "name": "Andrew Smithies",
     "role": "Développeur Web & Web Mobile Full-Stack",
-    "description": "Issu de l’enseignement des mathématiques, je me suis reconverti dans le développement web et mobile, où je mets à profit mon sens de l’analyse, de la pédagogie et de la conception claire.",
+    "role2": "Alternance recherchée: Concepteur Développeur d’Applications (Bac +3) — octobre 2026 à septembre 2027",
+    "description": "Issu de l’enseignement des mathématiques, je me suis reconverti dans le développement web et mobile, où je mets à profit mes capacités l’analyse, mon sens de la pédagogie et une approche de conception claire et structurée",
     "ctaProjects": "Voir mes projets",
     "ctaContact": "Me contacter",
     "scrollToAbout": "Faire défiler vers la section À propos"
@@ -103,7 +104,7 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "N'hésitez pas à me contacter pour une opportunité ou une collaboration.",
+    "subtitle": "Si mon profil vous intéresse, je serai ravi d’échanger avec vous. ",
     "emailButton": "Envoyer un email",
     "socialTitle": "Retrouvez-moi en ligne"
   },
